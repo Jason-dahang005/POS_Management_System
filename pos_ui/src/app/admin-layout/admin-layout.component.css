@@ -1,0 +1,12 @@
+.admin-layout {
+    height: 100vh;
+    display: flex;
+}
+
+.admin-layout-content {
+    flex-grow: 1;
+}
+
+.admin-main-content {
+    padding: 20px;
+}

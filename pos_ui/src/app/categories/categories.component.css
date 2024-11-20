@@ -1,0 +1,123 @@
+@import url('../../styles.css');
+
+.container {
+    border: 1px solid var(--secondary-color-lighter);
+    height: calc(100vh - 6.5rem);
+    border-radius: 5px;
+}
+
+.content-wrapper {
+    padding: 15px;
+}
+
+.content-header {   
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-title {
+    display: flex;
+    align-items: center;
+}
+
+.content-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-control-wrapper {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    color: var(--secondary-color);
+}
+
+.form-control-input-search {
+    padding-left: 30px;
+    color: var(--secondary-color);
+}
+
+
+
+
+
+.content-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+table.table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.table thead {
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-color-dark);
+}
+
+table.table thead th {
+    padding: 10px;
+    font-weight: 500;
+    color: var(--white-color);
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+table.table thead th:nth-child(1) {
+    width: 20%;
+}
+
+table.table thead th:nth-child(2) {
+    width: 40%;
+}
+
+table.table thead th:nth-child(3) {
+    width: 10%;
+}
+
+table.table thead th:nth-child(4) {
+    width: 20%;
+}
+
+table.table thead th:nth-child(5) {
+    width: 10%;
+}
+
+table.table tbody tr:nth-child(even){
+    background-color: var(--secondary-color-lighter);
+}
+
+table.table tbody tr td{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+table.table tbody td:nth-child(1) {
+
+}
+
+table.table tbody td:nth-child(2) {
+    
+}
+
+table.table tbody td:nth-child(3) {
+    text-align: center;   
+}
+
+table.table tbody td:nth-child(4) {
+    text-align: center;
+}
+
+table.table tbody td:nth-child(5) {
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+<aside class="sidebar-wrapper">
+    <div class="sidebar-header">
+        <img src="icons/shopping-icon.png" alt="">
+        <span>e-commerce system</span>
+    </div>
+    <ul class="sidebar-navlist">
+        @for (link of navlinks; track $index) {
+            <li class="nav-item">
+                <a routerLink="{{ link.link }}" routerLinkActive="active" class="nav-link">
+                    <span class="material-icons icon-size">{{ link.icon }}</span>
+                    <span>{{ link.name }}</span>
+                </a>
+            </li>    
+        }
+    </ul>
+</aside>

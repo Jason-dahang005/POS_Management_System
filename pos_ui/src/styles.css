@@ -1,1 +1,177 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    /* Color Palletes */
+    --primary-color-light: #4d94ff;
+    --primary-color: #0066ff;
+    --primary-color-dark: #0047b3;
+
+    --secondary-color-lighter: #f0f0f5; 
+    --secondary-color-light: #9494b8;
+    --secondary-color: #666699;
+    --secondary-color-dark: #47476b;
+    
+    --warning-color-light: #ffdb4d; 
+    --warning-color: #ffcc00;
+    --warning-color-darker: #cca300;
+
+    --danger-color-light: #ff4d4d;
+    --danger-color: #ff0000;
+    --danger-color-darker: #b30000;
+    
+    --success-color-light: #70db70;
+    --success-color: #33cc33;
+    --success-color-darker: #248f24;
+    
+    --black-color: #000000;
+    --dark-color: #262626;
+    --white-color: #ffffff;
+    --light-color: #f2f2f2;
+    
+    /* Font Sizes */
+    --font-size-xs: 8px;
+    --font-size-sm: 12px;
+    --font-size-md: 18px;
+    --font-size-lg: 24px;
+    --font-size-xl: 30px;
+    --font-size-2xl: 50px;
+
+    /* Font Color */
+    --font-color-darker: #333333;
+    --font-color-dark: #595959;
+
+    /* Font Family */
+    --font-family-1: Roboto;
+    --font-family-2: Poppins;
+
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.form-group {
+    padding-bottom: 10px;
+}
+.form-control-label {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.form-control-input {
+    width: 100%;
+    height: 3rem;
+    padding: 5px 15px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid var(--secondary-color-light);
+    border-radius: 5px;
+}
+
+.form-control-input-sm {
+    height: 2rem;
+}
+
+.btn {
+    height: 3rem;
+    white-space: nowrap;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sm {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.btn-xl {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.btn-success {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn-success:hover {
+    background-color: var(--primary-color-dark);
+    color: var(--white-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color-dark);
+    color: var(--white-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-dark);
+    color: var(--white-color);
+}
+
+.badge {
+    background-color: var(--secondary-color);
+    font-size: 13px;
+    padding: 5px 10px;
+    color: var(--white-color);
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+.badge-success {
+    background-color: var(--success-color);
+}
+
+.form-control-wrapper {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    color: var(--secondary-color);
+}
+
+.form-control-input-search {
+    padding-left: 30px;
+    color: var(--secondary-color);
+}
+
+table.table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table.table thead {
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-color-dark);
+}
+
+table.table thead th {
+    padding: 10px;
+    font-weight: 500;
+    color: var(--white-color);
+    text-transform: capitalize;
+    white-space: nowrap;
+}

@@ -1,0 +1,18 @@
+@import url('../../styles.css');
+
+/* .container {
+    border: 1px solid var(--secondary-color-lighter);
+    height: calc(100vh - 6.5rem);
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+.container {
+    border: 1px solid var(--secondary-color-lighter);
+    height: calc(100vh - 6.5rem);
+    border-radius: 5px;
+}
+
+.content-wrapper {
+    padding: 15px;
+}

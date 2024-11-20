@@ -1,0 +1,32 @@
+.wrapper {
+    box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+    width: 25rem;
+    border-radius: 7px;
+    background-color: var(--white-color);
+}
+
+.login-form-header {
+    padding: 30px 20px 0px 10px;
+    text-align: center;
+}
+
+.login-form-header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon {
+    width: 100px;
+}
+
+.login-form-header-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.login-form-body {
+    padding: 10px 30px 30px;
+}

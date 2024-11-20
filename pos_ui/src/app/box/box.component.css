@@ -1,0 +1,50 @@
+@import url('../../styles.css');
+
+.box-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    color: var(--white-color);
+    border-radius: 5px;
+}
+
+.box-text {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.box-icon {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.box-featured-icon {
+    font-size: 50px;    
+}
+
+.color-primary {
+    background-color: var(--primary-color);
+}
+
+.color-success {
+    background-color: var(--success-color);
+}
+
+.light-color-primary {
+    background-color: var(--primary-color-light);
+}
+
+.light-color-success {
+    background-color: var(--success-color-light);
+}

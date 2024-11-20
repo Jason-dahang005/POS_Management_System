@@ -1,0 +1,15 @@
+.topbar {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.hamburger-menu {
+    font-weight: 600;
+    font-size: 30px;
+}

@@ -1,0 +1,12 @@
+<div class="box-wrapper">
+    @for (item of boxDetails; track $index) {
+        <div class="{{ item.colorName }} box">
+            <div class="box-text">
+                <span>{{ item.title }}</span>
+            </div>
+            <div class="box-icon {{ item.iconColor }}">
+                <span class="material-icons box-featured-icon">{{ item.icon }}</span>
+            </div>
+        </div>
+    }
+</div>
